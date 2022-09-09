@@ -3,19 +3,20 @@
 #include <stdio.h>
 /**
  * main - assign a random number to variable n each time it is executed
- * The sreing last digit of n
+ * The string last digit of n
  * Return: 0
  */
 int main(void)
 {
 	int n;
 	int lastn;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastn = n % 10;
 	if (lastn > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastn); 
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
 	}
 	else if (lastn == 0)
 	{
