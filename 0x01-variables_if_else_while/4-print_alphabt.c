@@ -5,6 +5,7 @@
  * you can only use putchar
  * Return: 0
  */
+
 int main(void)
 {
 	in lw = 'a';
