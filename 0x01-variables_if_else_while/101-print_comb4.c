@@ -10,7 +10,7 @@
  {
 	 int n1 = 48;
 	 int n2, n3;
-	 in com = 44;
+	 int com = 44;
 
 	 while (n1 <= 57)
 	 {
