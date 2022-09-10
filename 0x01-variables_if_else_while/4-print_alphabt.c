@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	in lw = 'a';
+	int lw = 'a';
 
 	while (lw <= 'z')
 	{
