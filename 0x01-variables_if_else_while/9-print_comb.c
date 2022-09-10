@@ -5,7 +5,7 @@
  * use putchar
  * Return: 0
  */
-int main(voi)
+int main(void)
 {
 	int n = 48;
 	int com = 44;
