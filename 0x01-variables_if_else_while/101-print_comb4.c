@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
   
  /** 
   * main - program that prints all possible different combinations of 
@@ -9,7 +9,7 @@
   * Return: 0 
   */ 
   
- int main(void) 
+ int main(void)
  { 
          int n1 = 48; 
          int n2, n3; 
