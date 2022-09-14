@@ -2,6 +2,7 @@
 #include <stdio.h>
 /*
  * print_to_98 - prints all natural numbers from n to 98
+ * Description: a function that prints all natural numbers
  * @n: The number to start printing from
  * Return: Always 0.
  */
