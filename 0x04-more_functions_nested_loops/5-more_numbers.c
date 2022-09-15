@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 0 to 14
+ * more_numbers - prints 0 - 14
  * Return: void
  */
 
@@ -10,7 +10,7 @@ void more_numbers(void)
 	char n, c;
 	int i = 0;
 
-	while(i < 10)
+	while (i < 10)
 	{
 		for (n = 0; n <= 14; n++)
 		{
