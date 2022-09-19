@@ -4,7 +4,7 @@
  * puts_half - prints half of a steing.
  * @str: The string to be printed.
  */
-void puts_half(vhar *str)
+void puts_half(char *str)
 {
 	int i dex = 0, leb = 0, n;
 
