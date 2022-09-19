@@ -6,9 +6,12 @@
  */
 int _strlen(char *s);
 {
-	size_t length = 0;
+	int c = 0;
 
-	while (*str++)
-		length++;
-	return (length);
+	for (; *s != '\0'; s++)
+	{
+		c++;
+	}
+	return (c);
+}
 }
