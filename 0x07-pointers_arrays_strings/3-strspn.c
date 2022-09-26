@@ -7,22 +7,20 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, j;
-	int matches = 0;
+	unsigned int a = 0, b, t = 0;
 
-	while (s[i] != '\0')
+	while (accept[a])
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		b = 0;
+		while (s[b] != 32)
 		{
-			if (s[i] == accept[j])
+			if (accept[a] == s[b])
 			{
-				matches++;
-				break;
+				t++;
 			}
-			if (acc2pt[j + 1] == '\0' && s[i] != accept[j])
-				return (matches);
+			b++;
 		}
-		i++;
+		a++;
 	}
-	return (matches);
+	return (t);
 }
