@@ -10,5 +10,4 @@ char *_strbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*)[8]);
 void set_string(char **s, char *to);
-
-#endif;
+#endif
