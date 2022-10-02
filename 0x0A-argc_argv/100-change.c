@@ -4,7 +4,7 @@
  * main - prints the minimum number of coins for an amount of money
  * @argc: should count two arguments
  * @argv: arguments given should be program name and amount of money
- * Return: least number of coins, 0 if negative amount, 1 if amount not
+ * Return: 0 if negative amount, 1 if amount not found
  */
 int main(int argc, char *argv[])
 {
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	if (argv[1][0] == '-')
 	{
 		printf("0\n");
-		return(0);
+		return (0);
 	}
 	n = atoi(argv[1]);
 	coins += n / 25;
