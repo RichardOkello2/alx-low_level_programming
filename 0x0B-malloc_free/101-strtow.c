@@ -19,7 +19,7 @@ int _isspace(int c)
  */
 char **strtow(char *str)
 {
-	char **words *pos = str;
+	char **words, *pos = str;
 	int w = 0, c;
 
 	if (!(str && *str))
