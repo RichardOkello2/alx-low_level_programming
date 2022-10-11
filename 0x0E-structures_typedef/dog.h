@@ -1,6 +1,8 @@
-#ifndef HEADER
-#define HEADER
+#ifndef DOG_H
+#define DOG_H
 /**
+ * File: dog.
+ * Desc: Header file that defines a new type struct dog.
  * struct dog - Dog attributes
  * @name: The name of the dog.
  * @age: The age of the dog.
