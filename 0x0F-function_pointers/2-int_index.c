@@ -3,8 +3,8 @@
  * int_index - search for integer in array via function pointer
  * @array: array
  * @size: size of array
- * @cmp: pointer to searching/comparing function that we need to execute
- * Return: index where integer's found, -1 if not found or array not present
+ * @cmp: pointer comparing function that we need to execute
+ * Return: index where integer's found.
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
