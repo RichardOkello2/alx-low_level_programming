@@ -65,7 +65,7 @@ void print_a_integer(char *separator, va_list args)
  */
 void print_a_float(char *separator, va_list args)
 {
-	printf("%s%f", separator, va_arg(args, int));
+	printf("%s%f", separator, va_arg(args, double));
 }
 /**
  * print_a_char_ptr - Prints the content of pointer to char type
