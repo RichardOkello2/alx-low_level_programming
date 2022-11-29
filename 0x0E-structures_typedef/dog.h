@@ -1,13 +1,12 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * File: dog.
- * Desc: Header file that defines a new type struct dog.
  * struct dog - Dog attributes
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
- * struct dog: The attributes of a dog.
+ * _putchar: the character to print
+ * @c: ...
  */
 typedef struct dog
 {
